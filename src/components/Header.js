@@ -2,6 +2,7 @@ import React from "react";
 
 const headerStyle = {
     textAlign: "center",
+    backgroundColor: "#db8bd2",
     backgroundImage: `url(require("/assets/images/light-grey-terrazo.png"))`
 };
 
