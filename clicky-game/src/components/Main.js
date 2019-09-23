@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 function Main() {
     return (
@@ -6,53 +7,35 @@ function Main() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/done.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/tissue.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/joanne.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/kim-cant-stop-crying.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/kim-kardashian-crying-on-phone.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/kourtney.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/kris-crying-header.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
                     <div className="col-md-4">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/kris-jenner-cries-about-bruce.jpg"></img>
-                        </div>
+                        <Card />
                     </div>
-                    <div className="col-md-3">
-                        <div className="card">
-                            <img className="card-img-top" src="./assets/images/kris-jenner.jpg"></img>
-                        </div>
+                    <div className="col-md-4">
+                        <Card />
                     </div>
-                {/* ./row */}
+                    {/* ./row */}
                 </div>
-            {/* ./container */}
+                {/* ./container */}
             </div>
         </main>
     );
