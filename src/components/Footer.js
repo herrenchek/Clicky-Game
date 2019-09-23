@@ -1,7 +1,8 @@
 import React from "react";
 
 const footerStyle = {
-    textAlign: 'center'
+    textAlign: "center",
+    paddingTop: "10px",
 };
 
 function Footer() {
