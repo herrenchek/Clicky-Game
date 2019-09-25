@@ -4,7 +4,6 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 class App extends Component {
-
   state = {
     images: [
       {
@@ -62,7 +61,7 @@ class App extends Component {
         <Main />
         <Footer />
       </div>
-    )
+    );
   }
 }
 
