@@ -46,7 +46,7 @@ class App extends Component {
       {
         id: 7,
         src: "./assets/images/tissue.jpg",
-        alt: "Placeholder."
+        alt: "Kris Jenner wiping tears with tissue."
       },
       {
         id: 8,
